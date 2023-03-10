@@ -31,8 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier --write --ignore-unknown .",
-    "prettier:check": "prettier --check --ignore-unknown .",
-    "start-prod": "export PORT=3111 react-scripts start"
+    "prettier:check": "prettier --check --ignore-unknown ."
   },
   "eslintConfig": {
     "extends": [
