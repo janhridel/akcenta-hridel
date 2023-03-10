@@ -1,4 +1,5 @@
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import TranslateIcon from '@mui/icons-material/Translate';
 import { AppBar, Box, Button, CssBaseline, IconButton, Toolbar } from '@mui/material';
 import React, { useState } from 'react';
@@ -30,6 +31,12 @@ const DefaultLayout = (props: LayoutProps) => {
     i18n.changeLanguage(lng);
   };
 
+  const handleOpenGithub = () => {
+    if (typeof window !== 'undefined') {
+      window.location.href = 'https://github.com/janhridel/akcenta-hridel';
+    }
+  };
+
   return (
     <>
       <CssBaseline />
@@ -53,6 +60,9 @@ const DefaultLayout = (props: LayoutProps) => {
             </Link>
             <IconButton color={'inherit'} component={'span'} onClick={handleOpenLanguageDialog}>
               <TranslateIcon />
+            </IconButton>
+            <IconButton color={'inherit'} component={'span'} onClick={handleOpenGithub}>
+              <GitHubIcon />
             </IconButton>
           </Toolbar>
         </AppBar>
