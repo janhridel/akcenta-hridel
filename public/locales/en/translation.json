@@ -1,0 +1,27 @@
+{
+  "MENU": {
+    "FANS": "Fanoušci",
+    "CODE_FRAGMENTS": "Ukázka kódu"
+  },
+  "HEADLINES": {
+    "HOMEPAGE": "akcenta 💜 hridel",
+    "FANS": "Fans of the new connection"
+  },
+  "DIALOGS": {
+    "CHOOSE_LANGUAGE": {
+      "TITLE": "Select the language of the application"
+    }
+  },
+  "LANGUAGES": {
+    "cs": "Česky",
+    "en": "English"
+  },
+  "WHY_AKCENTA": {
+    "TITLE": "Why akcenta?",
+    "DESCRIPTION": "Because only accenta will sell you 1 euro for less than competitors from all over the EU."
+  },
+  "WHY_ME": {
+    "TITLE": "Why Honza Hřídel?",
+    "DESCRIPTION": "Because he will make sure that you always have your most advantageous rate at your fingertips."
+  }
+}

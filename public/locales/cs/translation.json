@@ -1,0 +1,27 @@
+{
+  "MENU": {
+    "FANS": "Fanoušci",
+    "CODE_FRAGMENTS": "Ukázka kódu"
+  },
+  "HEADLINES": {
+    "HOMEPAGE": "akcenta ❤️ hridel",
+    "FANS": "Fanoušci nového spojení"
+  },
+  "DIALOGS": {
+    "CHOOSE_LANGUAGE": {
+      "TITLE": "Vyberte jazyk aplicakce"
+    }
+  },
+  "LANGUAGES": {
+    "cs": "Česky",
+    "en": "English"
+  },
+  "WHY_AKCENTA": {
+    "TITLE": "Proč akcenta?",
+    "DESCRIPTION": "Protože jedině akcenta Vám prodá 1 euro za méně než konkurence z celé EU."
+  },
+  "WHY_ME": {
+    "TITLE": "Proč Honza Hřídel?",
+    "DESCRIPTION": "Protože se postará o to, abyste svůj nejvýhodnější kurz měli vždy pěkně přehledně po ruce."
+  }
+}
