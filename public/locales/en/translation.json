@@ -1,11 +1,14 @@
 {
   "MENU": {
     "FANS": "Fans",
-    "CODE_FRAGMENTS": "Some code"
+    "CODE_FRAGMENTS": "Some code",
+    "ORDER": "Order"
   },
   "HEADLINES": {
     "HOMEPAGE": "akcenta 💜 hridel",
-    "FANS": "Fans of the new connection"
+    "FANS": "Fans of the new connection",
+    "ORDER": "Order happiness",
+    "ORDER_SUMMARY": "Order summary"
   },
   "DIALOGS": {
     "CHOOSE_LANGUAGE": {
@@ -23,5 +26,41 @@
   "WHY_ME": {
     "TITLE": "Why Honza Hřídel?",
     "DESCRIPTION": "Because he will make sure that you always have your most advantageous rate at your fingertips."
+  },
+  "ORDER": {
+    "QUANTITY": "Quantity",
+    "PRICE": "Price",
+    "CUSTOMER": "Customer"
+  },
+  "CURRENCIES": {
+    "UNIVERSAL_MONEY": "unimoney"
+  },
+  "ORDER_FORM": {
+    "SUMMARY": {
+      "LABEL": "Order summary"
+    },
+    "SUBMIT": {
+      "LABEL": "SUBMIT"
+    },
+    "CHANGE": {
+      "LABEL": "Change"
+    },
+    "COMPANY_REG_NUMBER": {
+      "LABEL": "Company registration Nr.",
+      "PLACEHOLDER": "E.g. 12345678",
+      "ERRORS": {
+        "MATCH": "Invalid format",
+        "VALID_FORMAT": "Invalid Czech Company reg. Nr.",
+        "REQUIRED": "Company registration Nr. is mandatory"
+      }
+    },
+    "PHONE": {
+      "LABEL": "Phone",
+      "PLACEHOLDER": "E.g. +420775000111",
+      "ERRORS": {
+        "MATCHES": "Invalid format",
+        "REQUIRED": "Phone number is mandatory"
+      }
+    }
   }
 }

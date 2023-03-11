@@ -1,11 +1,14 @@
 {
   "MENU": {
     "FANS": "Fanoušci",
-    "CODE_FRAGMENTS": "Ukázka kódu"
+    "CODE_FRAGMENTS": "Ukázka kódu",
+    "ORDER": "Objednávka"
   },
   "HEADLINES": {
     "HOMEPAGE": "akcenta ❤️ hridel",
-    "FANS": "Fanoušci nového spojení"
+    "FANS": "Fanoušci nového spojení",
+    "ORDER": "Objednávka štěstí",
+    "ORDER_SUMMARY": "Souhrn objednávky"
   },
   "DIALOGS": {
     "CHOOSE_LANGUAGE": {
@@ -23,5 +26,41 @@
   "WHY_ME": {
     "TITLE": "Proč Honza Hřídel?",
     "DESCRIPTION": "Protože se postará o to, abyste svůj nejvýhodnější kurz měli vždy pěkně přehledně po ruce."
+  },
+  "ORDER": {
+    "QUANTITY": "Množství",
+    "PRICE": "Cena",
+    "CUSTOMER": "Zákazník"
+  },
+  "CURRENCIES": {
+    "UNIVERSAL_MONEY": "peněz"
+  },
+  "ORDER_FORM": {
+    "SUMMARY": {
+      "LABEL": "Souhrn objednávky"
+    },
+    "SUBMIT": {
+      "LABEL": "Dokončit"
+    },
+    "CHANGE": {
+      "LABEL": "Upravit"
+    },
+    "COMPANY_REG_NUMBER": {
+      "LABEL": "IČO",
+      "PLACEHOLDER": "Např. 12345678",
+      "ERRORS": {
+        "MATCH": "Neplatný formát",
+        "VALID_FORMAT": "Neplatné české IČO",
+        "REQUIRED": "IČO je povinná položka"
+      }
+    },
+    "PHONE": {
+      "LABEL": "Telefon",
+      "PLACEHOLDER": "Např. +420775000111",
+      "ERRORS": {
+        "MATCHES": "Neplatný formát",
+        "REQUIRED": "Telefon je povinná položka"
+      }
+    }
   }
 }

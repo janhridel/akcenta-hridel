@@ -48,12 +48,17 @@ const DefaultLayout = (props: LayoutProps) => {
                 <FavoriteBorderIcon />
               </IconButton>
             </Link>
-            <Link to={'fans'} style={menuLinkStyle}>
+            <Link to={'/fans'} style={menuLinkStyle}>
               <Button variant={'text'} color={'inherit'} component={'span'}>
                 {t('MENU.FANS')}
               </Button>
             </Link>
-            <Link to={'code'} style={menuLinkStyle}>
+            <Link to={'/order'} style={menuLinkStyle}>
+              <Button variant={'text'} color={'inherit'} component={'span'}>
+                {t('MENU.ORDER')}
+              </Button>
+            </Link>
+            <Link to={'/code'} style={menuLinkStyle}>
               <Button variant={'text'} color={'inherit'} component={'span'}>
                 {t('MENU.CODE_FRAGMENTS')}
               </Button>
