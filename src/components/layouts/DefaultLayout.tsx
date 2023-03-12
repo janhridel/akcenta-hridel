@@ -58,7 +58,7 @@ const DefaultLayout = (props: LayoutProps) => {
                 {t('MENU.ORDER')}
               </Button>
             </Link>
-            <Link to={'/code'} style={menuLinkStyle}>
+            <Link to={'/code-samples'} style={menuLinkStyle}>
               <Button variant={'text'} color={'inherit'} component={'span'}>
                 {t('MENU.CODE_FRAGMENTS')}
               </Button>

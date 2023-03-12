@@ -8,6 +8,7 @@ import ErrorPage from './ErrorPage';
 import './i18n';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import CodeSamplesPage from './routes/code-samples';
 import FansPage from './routes/fans';
 import OrderPage from './routes/order';
 import OrderSummaryPage from './routes/order-summary';
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
   {
     path: '/order-summary',
     element: <OrderSummaryPage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/code-samples',
+    element: <CodeSamplesPage />,
     errorElement: <ErrorPage />,
   },
 ]);

@@ -1,6 +1,7 @@
 import { Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 import DefaultLayout from '../components/layouts/DefaultLayout';
 
@@ -26,6 +27,11 @@ const RootPage = () => {
               {t('WHY_ME.TITLE')}
             </Typography>
             <Typography>{t('WHY_ME.DESCRIPTION')}</Typography>
+            <Typography>
+              <Link target={'_blank'} to={'https://hridel.com/cv.pdf'}>
+                {'CV'}
+              </Link>
+            </Typography>
           </Grid>
         </Grid>
       </Container>
