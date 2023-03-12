@@ -62,5 +62,7 @@
         "REQUIRED": "Telefon je povinná položka"
       }
     }
-  }
+  },
+  "SHUFFLE": "Zamíchat",
+  "RELOAD": "Obnovit"
 }

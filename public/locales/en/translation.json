@@ -62,5 +62,7 @@
         "REQUIRED": "Phone number is mandatory"
       }
     }
-  }
+  },
+  "SHUFFLE": "Shuffle",
+  "RELOAD": "Reload"
 }
